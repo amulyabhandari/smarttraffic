@@ -1,0 +1,95 @@
+
+<html>
+    <head>
+        <title>
+            LOGIN 
+        </title>
+         <link rel="stylesheet" href="style2.css">
+    </head>     
+    <body>
+
+    
+        <div class="login-page">
+            
+                
+            <div class="form">
+                <form class="register-form" action="/logina.html" >
+                    <h2>FOR TRAFFIC OFFICER</h2>
+                    
+                    <input type="text" placeholder="User Name" name="un"/>
+                    
+                    <input type="password" placeholder="Password" name="pwd" />
+                    
+                    <button onclick="myFunction1()">
+                        <a href="logina.html">
+                            Login</a>
+                    </button>
+
+                    <p class="message">
+
+                        Not a traffic officer?
+
+
+                        <a href="#">
+                            Login as USER
+                        </a>
+                    </p>
+                </form>
+                
+            
+        
+            <form class="login-form">
+                    <h2>USER LOGIN</h2>
+                
+                    ENTER YOUR LICENCE NUMBER:
+                
+                    <input type="number" placeholder="Licence Number" name="lin"/></br>
+
+                    
+                
+                    <button onclick="myFuncion2()"><a href="./template/b1.html">Login</a></button>
+                
+                    <p class="message">
+                
+                        For traffic personnel?
+                
+                
+                        <a href="#">
+                            Login as Traffic personnel
+                        </a>
+                    </p>
+            </form>
+            </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+        </script>
+        <script>       
+                $('.message a').click(function(){
+                $('form').animate({height: "toggle", "opacity":"toggle"}, "slow");
+                });
+        </script> 
+        <script>
+            function myFunction1() {
+                document.getElementById("register-form");
+                  var text = "";
+                  var i;
+                  for (i = 0; i < x.length ;i++) { text +=x.elements[i].value + "<br>" ; }
+                      document.getElementById("demo").innerHTML=text; 
+                }
+             
+        </script>>
+        <script>
+            if (lin==licence_number){
+                function myFunction2() {
+                    document.getElementById("login-form");
+                        var text = "";
+                        var i;
+                        for (i = 0; i < x.length ;i++) { text +=x.elements[i].value + "<br>" ; }
+                            document.getElementById("demo").innerHTML=text; 
+            }}
+            else{
+
+            }
+        </script> 
+    </body>
+</html>

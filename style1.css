@@ -1,0 +1,51 @@
+ 
+ body {
+    margin: 0;
+    background: grey;
+    background-size: cover;
+  }  
+
+  
+  header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+  }
+ h6 {
+    position: absolute;;
+    width: 100%;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    font-size: medium;
+  }
+
+  
+  header {
+    background: crimson;
+    color: rgb(0, 0, 0);
+    padding: 0 0 20px;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    overflow:auto;
+  }
+
+  .logo img {
+    position: absolute;
+    width: 330px;
+    height: 100px;
+    opacity: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    opacity: auto;
+    
+
+  }
